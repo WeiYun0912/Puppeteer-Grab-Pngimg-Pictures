@@ -22,6 +22,7 @@ const download = (url, destination) =>
   });
 
 (async () => {
+  console.time("Test Grab Image Time");
   const browser = await puppeteer.launch({
     headless: true,
   });
@@ -29,7 +30,7 @@ const download = (url, destination) =>
 
   await page.setDefaultNavigationTimeout(0);
 
-  await page.goto("http://pngimg.com/images/fruits/cacao");
+  await page.goto("http://pngimg.com/images/cars/camaro");
   //   await page.screenshot({ path: "web.png" });
   //   page.on("console", (consoleObj) => console.log(consoleObj.text()));
   const grabImages = await page.evaluate(() => {
@@ -53,4 +54,5 @@ const download = (url, destination) =>
 
   downloadImage(imgs);
   await browser.close();
+  console.timeEnd("Test Grab Image Time");
 })();

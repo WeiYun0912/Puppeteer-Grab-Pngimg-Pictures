@@ -1,0 +1,40 @@
+ 觀看 React Hook 並寫成筆記
+ React + TypeScript
+ NextJS Project
+ Redux Toolkit 筆記
+ Firebase 部署筆記
+ Line Bot 筆記
+ Emmet 筆記
+ CSS 2077 Button
+ 觀看 Skeleton 並寫成筆記
+ 將碩士題目區塊鏈二手交易平台改為區塊鏈二手車交易平台(程式碼和合約部分)
+ 看 Design and Application of Product Traceability Blockchain-based Platform 論文
+ 看 Reliable, Fair and Decentralized Marketplace for Content Sharing Using Blockchain 論文
+ 看 Enhanced Vendor-managed Inventory through Blockchain 論文
+ 看 Improving Vendor-managed Inventory Strategy Based on Internet of Things (IoT) Applications and Blockchain Technology 論文
+ 將智能合約的功能和平台各個步驟製作成循序圖
+ 學習 min-height,max-height,min-width(最小就是設定的尺寸 不會比設定的尺寸更小),max-width(反過來) 的使用方法
+ 學習 flex-shrink 和 flex-grow 的使用方法
+ CSS Scroller 筆記
+ 區塊鏈私有鏈筆記
+ Git 筆記
+ CSS accent-color
+ 靠自己贏得比賽 (2021第26屆大專校院資訊應用服務創新競賽)
+ 刻二手車網頁版型
+ 寫比賽文件
+ 利用PowerPoint做比賽的介紹影片(最後用了AniMaker)
+ 做比賽簡報
+ 繼續學Figma，先做出一個簡單版的版型。
+ 把論文和自己的題目做比較，做成表格，如果是會議論文的話，建議要被site多次一點的。
+ 把DVM的發獎勵機制補上
+ DVM車輛的圖片點進去後要是不一樣的
+ 兌換獎勵的頁面要完成
+ 查詢系統
+ IPFS瀏覽器
+ IPFS抓到的圖片用base64處理
+ Line Bot 查詢、訂閱
+ 錄認證合約的操作影片
+ 錄商品合約和訂單合約的操作影片
+ 用puppeteer爬取網站並下載圖片。 (最後用 pngimg 來練習)
+ 寫puppeteer筆記(基本的)。
+ 用Redux-Toolkit做出簡單的Darkmode轉換。
