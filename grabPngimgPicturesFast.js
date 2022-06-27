@@ -1,6 +1,6 @@
 const fs = require("fs/promises");
 const puppeteer = require("puppeteer");
-const cron = require("node-cron");
+// const cron = require("node-cron");
 
 const start = async () => {
   console.time("Test Grab Image Time");
@@ -22,20 +22,11 @@ const start = async () => {
     console.log(`下載 ${photo.split("/").pop()} 中...`);
     await fs.writeFile(photo.split("/").pop(), await imagePage.buffer());
   }
-  //   await page.goto("https://hackmd.io/WsHEy1M-T7-XECEpG4-Bsg");
-  //   const getLists = await page.evaluate(() => {
-  //     const lists = Array.from(
-  //       document.querySelectorAll(".contains-task-list li")
-  //     ).map((list) => list.textContent);
-  //     return lists;
-  //   });
-  //   await fs.writeFile("name.txt", getLists.join("\n"));
-
-  //   console.log(getLists);
-  //   const names = ["wei", "yun"];
 
   await browser.close();
   console.timeEnd("Test Grab Image Time");
 };
 
-cron.schedule("*/5 * * * * *", start);
+start();
+
+// cron.schedule("*/5 * * * * *", start);

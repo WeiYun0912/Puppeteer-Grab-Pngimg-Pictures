@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "csv-writer": "^1.6.0",
+    "line-reader": "^0.4.0",
     "node-cron": "^3.0.0",
     "puppeteer": "^10.4.0"
   }
